@@ -24,12 +24,9 @@
           },
           { "key": "Access-Control-Allow-Credentials", "value": "true" }
         ],
-          "functions": {
+    "functions": {
     "**": {
       "excludeFiles": "{.next,*.cache,node_modules,public,app}/**"
     }
   }
-      }
-    ]
-  }
-  
+}
