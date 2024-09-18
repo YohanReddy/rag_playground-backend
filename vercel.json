@@ -4,6 +4,9 @@
     {
       "src": "main.py",
       "use": "@vercel/python"
+      "config": {
+        "excludeFiles": "/{.next,*.cache,node_modules,public,app}/**"
+      }
     }
   ],
   "rewrites": [
