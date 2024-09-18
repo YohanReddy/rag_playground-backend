@@ -2,7 +2,6 @@ fastapi
 uvicorn
 fastapi-cors
 python-multipart
-langchain
 langchain-chroma
 langchain-openai
 langchain_community
