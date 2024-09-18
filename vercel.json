@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "main.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
       "config": {
         "excludeFiles": "/{.next,*.cache,node_modules,public,app}/**"
       }
@@ -28,10 +28,5 @@
         { "key": "Access-Control-Allow-Credentials", "value": "true" }
       ]
     }
-  ],
-  "functions": {
-    "**": {
-      "excludeFiles": "{.next,*.cache,node_modules,public,app}/**"
-    }
-  }
+  ]
 }
